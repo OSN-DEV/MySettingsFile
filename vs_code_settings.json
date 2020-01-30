@@ -1,0 +1,16 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "vim.disableExtension": true,
+    "editor.wordSeparators": "\"`~!@#$%^&*()-=+[{]}\\\\|;:'\\\",.<>/?、。『』「」（）；：・？＜＞＋－＊／｛｝｜～＆％＄＃”！’　てにをはがのともへでや\",",
+    "editor.renderWhitespace": "all",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontFamily": "Consolas, 'Meiryo UI','Courier New', monospace",
+    "html.autoClosingTags": false,
+    "editor.autoIndent": false,
+    "editor.autoClosingQuotes": "never",
+    "html.mirrorCursorOnMatchingTag": false,
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Eva Light",
+    "editor.minimap.enabled": false,
+    "editor.detectIndentation": false
+}
