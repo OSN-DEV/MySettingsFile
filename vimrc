@@ -1,31 +1,33 @@
 " 参考
 " https://d-ebi.hatenablog.com/entry/2018/11/08/210000
 
-" デフォルトの文字コードをUTF-8へ
-set encoding=utf-8
-set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
+set nocompatible                                    " vi互換を無効にする(これがないと割と辛い)
+let $HOME= $VIM . '\home'                           " ホームディレクトリをC:\Users\{User}から変更
 
-set clipboard=unnamed,autoselect            " ヤンクやペースト時クリップボードの内容を使用する
-set nobackup                                " バックアップファイルを作らない
-set noswapfile                              " スワップファイルを作らない
+set encoding=utf-8                                  " デフォルトの文字コードをUTF-8に変更
+set fileencodings=utf-8,iso-2022-jp,euc-jp,sjis     " デフォルトの文字コードをUTF-8に変更
 
-set cursorcolumn                            " 現在の行を強調表示（縦）
+set nobackup                                        " バックアップファイルを作らない
+set noswapfile                                      " スワップファイルを作らない
 
-set incsearch                               " インクリメンタルサーチを有効にする
-set hlsearch                                " 検索結果のハイライト
+" set cursorcolumn                                    " 現在の行を強調表示（縦）
 
-set number                                  " 行番号を表示
-set ruler                                   " ルーラーを表示(設定しても見た目は変わらない気がする。。)
-" set expandtab                               " タブをスペースに展開する
+set incsearch                                       " インクリメンタルサーチを有効にする
+set hlsearch                                        " 検索結果のハイライト
 
-set autoread                                " 内容が変更されていたら自動的に再読み込み
+set number                                          " 行番号を表示
+set ruler                                           " ルーラーを表示(設定しても見た目は変わらない気がする。。)
+" set expandtab                                       " タブをスペースに展開する
 
-set backspace=indent,eol,start              " バックスペースでインデントや改行を削除できるようにする
+set clipboard=unnamed,autoselect                    " ヤンクやペースト時クリップボードの内容を使用する
+set autoread                                        " 内容が変更されていたら自動的に再読み込み
+set backspace=indent,eol,start                      " バックスペースでインデントや改行を削除できるようにする
+" set nowrap                                          " 折返ししない
+" set undolevels=10                                   " UNDOの回数
+set smartindent                                     " C言語風の自動インデントを有効にする
 
-set nowrap                                  " 折返ししない
+" nnoremap <Esc><Esc> :noh<CR>                        " <Esc><Esc>で検索結果のハイライトを消す。gvimではカーソルが移動してしまうので一旦保留
 
-:set cmdheight=2                            # これを設定すると保存時の Press Enter～のメッセージが表示されなくなる
-nnoremap <Esc><Esc> :noh<CR>                " <Esc><Esc>で検索結果のハイライトを消す
 
 
 """"""""""""""""""""""""""""""
@@ -55,29 +57,28 @@ if has('syntax')
 endif
 
 
-function! HankakuSpace()
-  highlight HankakuSpace cterm=underline ctermfg=darkgrey gui=underline guifg=darkgrey
-endfunction
-
-if has('syntax')
-  augroup HankakuSpace
-    autocmd!
-    " HankakuSpaceをカラーファイルで設定するなら次の行は削除
-    autocmd ColorScheme       * call HankakuSpace()
-    " 全角スペースのハイライト指定
-    autocmd VimEnter,WinEnter * match HankakuSpace / /
-    autocmd VimEnter,WinEnter * match HankakuSpace '\%uff65'
-  augroup END
-  call HankakuSpace()
-endif
-
 " Tab、行末の半角スペースを明示的に表示する。
+" https://qiita.com/pollenjp/items/459a08a2cc59485fa08b
 set list
-" set listchars=tab:>-,extends:<,trail:-,eol:<
+set listchars=tab:»-,trail:·,eol:↲,extends:»,precedes:«,nbsp:%,space:·
+hi NonText    guibg=NONE guifg=lightgrey
+hi SpecialKey guibg=NONE guifg=lightgrey
 
-" 半角スペースを表示する
-set listchars=space:·
-highlight WhiteSpaceBol guifg=darkgrey
-highlight WhiteSpaceMol guifg=darkgrey
-match WhiteSpaceMol / /
-2match WhiteSpaceBol /^ \+/
+
+
+""""""""""""""""""""""""""""""
+" plug in(https://github.com/junegunn/vim-plug)
+""""""""""""""""""""""""""""""
+let g:cheatsheet#cheat_file = '$VIM\home\cheat.md'
+
+" vimを起動して :PlugInstall と記述しないとインストールされないらしい
+" :set rtp? でruntimepathの設定を確認出来る
+" :PlugStatus でプラグインの状況を確認できる
+
+call plug#begin('$VIM/vimfiles/plugged')        " パスを指定しないと$HOMEの設定を変更しているにも関わらずC:/Usersにプラグインがインストールされる
+
+Plug 'scrooloose/nerdtree'                      " :NERDTreeコマンドで ファイルをtree表示してくれる
+Plug 'reireias/vim-cheatsheet'                  " :Cheatでチートシートに設定したファイルを表示する
+
+call plug#end()
+

@@ -1,10 +1,10 @@
 " 参考
 " https://d-ebi.hatenablog.com/entry/2018/11/08/210000
 
-set guifont=Ricty\ Diminished:h12:cSHIFTJIS                 " フォント設定
+set guifont=Ricty\ Diminished:h12:cSHIFTJIS                     " フォント設定
 
-set cursorline                              " 現在の行を強調表示
-highlight cursorline gui=underline guifg=NONE guibg=NONE        " 行選択ではなくアンダーライン表示にする(文字色＝アンダーラインの色)
+set cursorline                                                  " 現在の行を強調表示
+highlight cursorline gui=underline guifg=blue guibg=NONE        " 行選択ではなくアンダーライン表示にする(文字色＝アンダーラインの色)
 
 " 右スクロールバー非表示
 " set guioptions-=r

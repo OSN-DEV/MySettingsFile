@@ -4,13 +4,29 @@
     "editor.wordSeparators": "\"`~!@#$%^&*()-=+[{]}\\\\|;:'\\\",.<>/?、。『』「」（）；：・？＜＞＋－＊／｛｝｜～＆％＄＃”！’　てにをはがのともへでや\",",
     "editor.renderWhitespace": "all",
     "workbench.iconTheme": "vscode-icons",
-    "editor.fontFamily": "Consolas, 'Meiryo UI','Courier New', monospace",
+    "editor.fontFamily": "Consolas, 'Meiryo UI', 'Myrica M','Courier New', monospace",
     "html.autoClosingTags": false,
-    "editor.autoIndent": false,
+    "editor.autoIndent": "brackets",
     "editor.autoClosingQuotes": "never",
     "html.mirrorCursorOnMatchingTag": false,
     "window.zoomLevel": 0,
     "workbench.colorTheme": "Eva Light",
     "editor.minimap.enabled": false,
-    "editor.detectIndentation": false
+    "editor.detectIndentation": false,
+    "vscode_custom_css.imports": [
+        "file:///D:/Tools/text/VisualStudioCode/VSCode/data/user-data/User/vscode.css",
+        "file:///D:/NoInstall/VisualStudioCode/VSCode/data/user-data/User/vscode.css"
+    ],
+    "editor.fontLigatures": true,
+    "vscode_custom_css.policy": true,
+    "typescript.tsc.autoDetect": "off",
+    "grunt.autoDetect": "off",
+    "jake.autoDetect": "off",
+    "npm.autoDetect": "off",
+    "gulp.autoDetect": "off",
+    "[c]": {},
+    "php.validate.executablePath": "C:\\php\\php.exe",
+    "php.validate.run": "onType",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
