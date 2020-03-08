@@ -26,6 +26,8 @@ set backspace=indent,eol,start                      " バックスペースで�
 " set undolevels=10                                   " UNDOの回数
 set smartindent                                     " C言語風の自動インデントを有効にする
 
+set ambiwidth=double                                " 全角記号の表示崩れの対応
+
 " nnoremap <Esc><Esc> :noh<CR>                        " <Esc><Esc>で検索結果のハイライトを消す。gvimではカーソルが移動してしまうので一旦保留
 
 
@@ -60,7 +62,8 @@ endif
 " Tab、行末の半角スペースを明示的に表示する。
 " https://qiita.com/pollenjp/items/459a08a2cc59485fa08b
 set list
-set listchars=tab:»-,trail:·,eol:↲,extends:»,precedes:«,nbsp:%,space:·
+" set listchars=tab:»-,trail:·,eol:↲,extends:»,precedes:«,nbsp:%,space:·
+set listchars=tab:»-,eol:↲,extends:»,precedes:«,nbsp:%
 hi NonText    guibg=NONE guifg=lightgrey
 hi SpecialKey guibg=NONE guifg=lightgrey
 
