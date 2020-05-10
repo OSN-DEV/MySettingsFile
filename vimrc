@@ -6,6 +6,8 @@ let $HOME= $VIM . '\home'                           " ホームディレクト�
 
 set encoding=utf-8                                  " デフォルトの文字コードをUTF-8に変更
 set fileencodings=utf-8,iso-2022-jp,euc-jp,sjis     " デフォルトの文字コードをUTF-8に変更
+set fileformat=dos
+set fileformats=dos,unix,mac
 
 set nobackup                                        " バックアップファイルを作らない
 set noswapfile                                      " スワップファイルを作らない
@@ -63,7 +65,7 @@ endif
 " https://qiita.com/pollenjp/items/459a08a2cc59485fa08b
 set list
 " set listchars=tab:»-,trail:·,eol:↲,extends:»,precedes:«,nbsp:%,space:·
-set listchars=tab:»-,eol:↲,extends:»,precedes:«,nbsp:%
+set listchars=tab:»-,eol:↲,extends:»,precedes:«,nbsp:･,space:･,trail:･
 hi NonText    guibg=NONE guifg=lightgrey
 hi SpecialKey guibg=NONE guifg=lightgrey
 

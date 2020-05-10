@@ -28,5 +28,6 @@
     "php.validate.executablePath": "C:\\php\\php.exe",
     "php.validate.run": "onType",
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "markdown.extension.preview.autoShowPreviewToSide": true
 }
