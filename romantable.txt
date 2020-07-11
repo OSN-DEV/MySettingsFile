@@ -1,313 +1,15 @@
--	ー
-~	〜
-.	。
-,	、
-z/	・
-z.	…
-z,	‥
-zh	←
-zj	↓
-zk	↑
-zl	→
-z-	〜
-z[	『
-z]	』
-[	「
-]	」
-va	ゔぁ
-vi	ゔぃ
-vu	ゔ
-ve	ゔぇ
-vo	ゔぉ
-vya	ゔゃ
-vyi	ゔぃ
-vyu	ゔゅ
-vye	ゔぇ
-vyo	ゔょ
-qq	っ	q
-vv	っ	v
-ll	っ	l
-xx	っ	x
-kk	っ	k
-gg	っ	g
-ss	っ	s
-zz	っ	z
-jj	っ	j
-tt	っ	t
-dd	っ	d
-hh	っ	h
-ff	っ	f
-bb	っ	b
-pp	っ	p
-mm	っ	m
-yy	っ	y
-ww	っ	w
-www	w	ww
-cc	っ	c
-kya	きゃ
-kyi	きぃ
-kyu	きゅ
-kye	きぇ
-kyo	きょ
-gya	ぎゃ
-gyi	ぎぃ
-gyu	ぎゅ
-gye	ぎぇ
-gyo	ぎょ
-sya	しゃ
-syi	しぃ
-syu	しゅ
-sye	しぇ
-syo	しょ
-sha	しゃ
-shi	し
-shu	しゅ
-she	しぇ
-sho	しょ
-zya	じゃ
-zyi	じぃ
-zyu	じゅ
-zye	じぇ
-zyo	じょ
-tya	ちゃ
-tyi	ちぃ
-tyu	ちゅ
-tye	ちぇ
-tyo	ちょ
-cha	ちゃ
-chi	ち
-chu	ちゅ
-che	ちぇ
-cho	ちょ
-cya	ちゃ
-cyi	ちぃ
-cyu	ちゅ
-cye	ちぇ
-cyo	ちょ
-dya	ぢゃ
-dyi	ぢぃ
-dyu	ぢゅ
-dye	ぢぇ
-dyo	ぢょ
-tha	てゃ
-thi	てぃ
-t'i	てぃ
-thu	てゅ
-the	てぇ
-tho	てょ
-t'yu	てゅ
-dha	でゃ
-dhi	でぃ
-d'i	でぃ
-dhu	でゅ
-dhe	でぇ
-dho	でょ
-d'yu	でゅ
-twa	とぁ
-twi	とぃ
-twu	とぅ
-twe	とぇ
-two	とぉ
-t'u	とぅ
-dwa	どぁ
-dwi	どぃ
-dwu	どぅ
-dwe	どぇ
-dwo	どぉ
-d'u	どぅ
-nya	にゃ
-nyi	にぃ
-nyu	にゅ
-nye	にぇ
-nyo	にょ
-hya	ひゃ
-hyi	ひぃ
-hyu	ひゅ
-hye	ひぇ
-hyo	ひょ
-bya	びゃ
-byi	びぃ
-byu	びゅ
-bye	びぇ
-byo	びょ
-pya	ぴゃ
-pyi	ぴぃ
-pyu	ぴゅ
-pye	ぴぇ
-pyo	ぴょ
-fa	ふぁ
-fi	ふぃ
-fu	ふ
-fe	ふぇ
-fo	ふぉ
-fya	ふゃ
-fyu	ふゅ
-fyo	ふょ
-hwa	ふぁ
-hwi	ふぃ
-hwe	ふぇ
-hwo	ふぉ
-hwyu	ふゅ
-mya	みゃ
-myi	みぃ
-myu	みゅ
-mye	みぇ
-myo	みょ
-rya	りゃ
-ryi	りぃ
-ryu	りゅ
-rye	りぇ
-ryo	りょ
-n'	ん
-nn	ん
-n	ん
-xn	ん
-a	あ
-i	い
-u	う
-wu	う
-e	え
-o	お
-lyi	ぃ
-xyi	ぃ
-lye	ぇ
-xye	ぇ
-ye	いぇ
-ka	か
-ki	き
-ku	く
-ke	け
-ko	こ
-xka	ヵ
-xke	ヶ
-lka	ヵ
-lke	ヶ
-ga	が
-gi	ぎ
-gu	ぐ
-ge	げ
-go	ご
-sa	さ
-si	し
-su	す
-se	せ
-so	そ
-ci	し
-cu	く
-ce	せ
-co	こ
-kwa	くぁ
-kwi	くぃ
-kwu	くぅ
-kwe	くぇ
-kwo	くぉ
-gwa	ぐぁ
-gwi	ぐぃ
-gwu	ぐぅ
-gwe	ぐぇ
-gwo	ぐぉ
-swa	すぁ
-swi	すぃ
-swu	すぅ
-swe	すぇ
-swo	すぉ
-zwa	ずぁ
-zwi	ずぃ
-zwu	ずぅ
-zwe	ずぇ
-zwo	ずぉ
-za	ざ
-zi	じ
-zu	ず
-ze	ぜ
-zo	ぞ
-ja	じゃ
-ji	じ
-ju	じゅ
-je	じぇ
-jo	じょ
-jya	じゃ
-jyi	じぃ
-jyu	じゅ
-jye	じぇ
-jyo	じょ
-ta	た
-ti	ち
-tu	つ
-tsu	つ
-te	て
-to	と
-da	だ
-di	ぢ
-du	づ
-de	で
-do	ど
-xtu	っ
-xtsu	っ
-ltu	っ
-ltsu	っ
-na	な
-ni	に
-nu	ぬ
-ne	ね
-no	の
-ha	は
-hi	ひ
-hu	ふ
-fu	ふ
-he	へ
-ho	ほ
-ba	ば
-bi	び
-bu	ぶ
-be	べ
-bo	ぼ
-pa	ぱ
-pi	ぴ
-pu	ぷ
-pe	ぺ
-po	ぽ
-ma	ま
-mi	み
-mu	む
-me	め
-mo	も
-xya	ゃ
-lya	ゃ
-ya	や
-wyi	ゐ
-xyu	ゅ
-lyu	ゅ
-yu	ゆ
-wye	ゑ
-xyo	ょ
-lyo	ょ
-yo	よ
-ra	ら
-ri	り
-ru	る
-re	れ
-ro	ろ
-xwa	ゎ
-lwa	ゎ
-wa	わ
-wi	うぃ
-we	うぇ
-wo	を
-wha	うぁ
-whi	うぃ
-whu	う
-whe	うぇ
-who	うぉ
-
 kv	き
 kj	く
 kl	こ
 zv	ざ
 dv	で
 nf	ぬ
-n\	にゅ
-n;	n
+^a	な
+^i	に
+^u	ぬ
+^e	ね
+^o	の
+n;	の
 hv	ふ
 mv	む
 mk	み
@@ -326,36 +28,38 @@ nv	ん
 @ya	ゃ
 @yu	ゅ
 @yo	ょ
+@wa	ゎ
+@n	にゅ
 
 ks	か	s
-gs	ぐ	s
-ds	で	s
 ts	と	s
 ms	ま	s
 rs	ら	s
 ws	わ	s
+gs	ぐ	s
+ds	で	s
 
 kr	か	r
 cr	く	r
-gr	ぐ	r
 sr	す	r
 tr	と	r
-dr	ど	r
 fr	ふ	r
-pr	ぷ	r
 mr	ま	r
 yr	よ	r
 wr	わ	r
+gr	ぐ	r
+dr	ど	r
+pr	ぷ	r
 
 kt	こ	t
-gt	ご	t
 mt	ま	t
 wt	わ	t
+gt	ご	t
 
-dk	で	k
 sk	し	k
 tk	と	k
 wk	わ	k
+dk	で	k
 
 qa	きゃ
 qu	きゅ
@@ -369,6 +73,14 @@ ca	ちゃ
 cu	ちゅ
 co	ちょ
 
+^ya	にゃ
+^yu	にゅ
+^yo	にょ
+
+:a	ひゃ
+:u	ひゅ
+:o	ひょ
+
 la	りゃ
 lu	りゅ
 lo	りょ
@@ -378,8 +90,8 @@ sc	すく
 st	すと
 
 k;	っく
-g;	っぐ
 t;	っと
+g;	っぐ
 d;	っど
 p;	っぷ
 
@@ -387,88 +99,140 @@ rk	ーく
 rt	ーと
 rp	ーぷ
 
-z;	ず
-f;	ふ
-b;	ぶ
-m;	む
-l;	る
+;a	ぱ
+;i	ぴ
+;u	ぷ
+;e	ぺ
+;o	ぽ
+;ya	ぴゃ
+;yu	ぴゅ
+;yo	ぴょ
 
 k.	く。
-g.	ぐ。
 s.	す。
-b.	ぶ。
 t.	た。
-d.	だ。
-v.	ぶ。
 m.	む。
 r.	る。
 n.	ん。
+g.	ぐ。
+z.	ず。
+d.	だ。
+b.	ぶ。
 
-g,	が、
-d,	で、
+k,	く、
+s,	し、
 t,	て、
+n,	に、
 h,	は、
+b,	ば、
+g,	が、
+j,	じ、
+z,	ず、
+d,	で、
 
+vf	あい
+vl	えい
 kf	かい
-gf	がい
-gl	げい
 sf	さい
-zf	ざい
-jf	じゃい
 sl	せい
 tf	たい
-df	だい
 tl	てい
+^l	ない
 hf	はい
 hl	へい
 mf	まい
+gf	がい
+gl	げい
+zf	ざい
+jl	ぜい
+df	だい
+bl	べい
+xf	しゃい
+jf	じゃい
 
-qw	きゅう
-qv	きょう
-gv	ぎょう
+vw	おう
 kw	こう
-gw	ごう
-cw	ちょう
-jw	じゅう
-xw	しゅう
-xv	しょう
-jh	じょう
 sw	そう
-tw	つう
+tw	とう
+^w	のう
 mw	もう
 yw	よう
-lw	りょう
+gw	ごう
+zw	ぞう
+dw	どう
+hw	ほう
+qw	きゅう
+qv	きょう
+cw	ちゅう
+cv	ちょう
+xw	しゅう
+xv	しょう
+;w	にゅう
+;v	にょう
+:w	ひゅう
+:v	ひょう
+bv	びょう
+lw	りゅう
+lv	りょう
+gv	ぎょう
+jw	じゅう
+jv	じょう
 
-
+vn	あん
+vg	いん
+vm	うん
+vd	えん
+vb	おん
 kn	かん
-gn	がん
-qn	きゃん
 kg	きん
 km	くん
-gm	ぐん
-gd	げん
 kd	けん
 kb	こん
 sn	さん
 sg	しん
-zg	じん
-zd	ぜん
-zb	ぞん
-xm	しゅん
 sm	すん
 sd	せん
 sb	そん
-jn	じゃん
-jm	じゅん
 tn	たん
 tg	ちん
 tm	つん
 td	てん
 tb	とん
+^n	なん
+^g	にん
+^m	ぬん
+^d	ねん
+^b	のん
 hn	はん
 hg	ひん
+hm	ふん
+hd	へん
 hb	ほん
 mn	まん
 mg	みん
 md	めん
 mb	もん
+rn	らん
+rd	れん
+rb	ろん
+gn	がん
+gm	ぐん
+gd	げん
+gb	ごん
+zn	ざん
+zg	じん
+zm	ずん
+zd	ぜん
+zb	ぞん
+dn	だん
+;n	ぱん
+;g	ぴん
+bn	ばん
+bm	ぶん
+bd	べん
+qn	きゃん
+xm	しゅん
+cn	ちゃん
+cm	ちゅん
+jn	じゃん
+jm	じゅん

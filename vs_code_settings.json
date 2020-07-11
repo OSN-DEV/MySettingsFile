@@ -29,5 +29,13 @@
     "php.validate.run": "onType",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "markdown.extension.preview.autoShowPreviewToSide": true
+    "markdown.extension.preview.autoShowPreviewToSide": true,
+    "sshfs.configs": [
+        {
+            "host": "192.168.150.184",
+            "name": "SmaplaLocal",
+            "password": "centos",
+            "username": "centos"
+        }
+    ]
 }

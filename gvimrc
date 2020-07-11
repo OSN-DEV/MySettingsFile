@@ -20,6 +20,8 @@ set tabstop=4                                               " タブの画面上
 
 colorscheme molokai                                         " https://github.com/tomasr/molokai
 
+map <C-n> :NERDTreeToggle<CR>                               " Ctrl + nでツリーを表示
+
 " IME の on/off に合わせてカーソルの色を変える
 if has('multi_byte_ime')
 "    hi Cursor guifg=bg guibg=Green gui=NONE                " ノーマルモードの色もグリーンになるので一旦コメント

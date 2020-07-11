@@ -32,7 +32,7 @@ set ambiwidth=double                                " 全角記号の表示崩�
 
 " nnoremap <Esc><Esc> :noh<CR>                        " <Esc><Esc>で検索結果のハイライトを消す。gvimではカーソルが移動してしまうので一旦保留
 
-
+colorscheme molokai
 
 """"""""""""""""""""""""""""""
 "全角スペースを表示
