@@ -9,7 +9,6 @@ nf	ぬ
 ^u	ぬ
 ^e	ね
 ^o	の
-n;	の
 hv	ふ
 mv	む
 mk	み
@@ -31,35 +30,14 @@ nv	ん
 @wa	ゎ
 @n	にゅ
 
-ks	か	s
-ts	と	s
-ms	ま	s
-rs	ら	s
-ws	わ	s
-gs	ぐ	s
-ds	で	s
-
-kr	か	r
-cr	く	r
-sr	す	r
-tr	と	r
-fr	ふ	r
-mr	ま	r
-yr	よ	r
-wr	わ	r
-gr	ぐ	r
-dr	ど	r
-pr	ぷ	r
-
-kt	こ	t
-mt	ま	t
-wt	わ	t
-gt	ご	t
-
-sk	し	k
-tk	と	k
-wk	わ	k
-dk	で	k
+;a	ぱ
+;i	ぴ
+;u	ぷ
+;e	ぺ
+;o	ぽ
+;ya	ぴゃ
+;yu	ぴゅ
+;yo	ぴょ
 
 qa	きゃ
 qu	きゅ
@@ -99,15 +77,6 @@ rk	ーく
 rt	ーと
 rp	ーぷ
 
-;a	ぱ
-;i	ぴ
-;u	ぷ
-;e	ぺ
-;o	ぽ
-;ya	ぴゃ
-;yu	ぴゅ
-;yo	ぴょ
-
 k.	く。
 s.	す。
 t.	た。
@@ -129,6 +98,7 @@ g,	が、
 j,	じ、
 z,	ず、
 d,	で、
+r,	ら、
 
 vf	あい
 vl	えい
@@ -137,10 +107,11 @@ sf	さい
 sl	せい
 tf	たい
 tl	てい
-^l	ない
+^f	ない
 hf	はい
 hl	へい
 mf	まい
+rf	らい
 gf	がい
 gl	げい
 zf	ざい
@@ -161,6 +132,8 @@ gw	ごう
 zw	ぞう
 dw	どう
 hw	ほう
+bw	ぼう
+rw	ろう
 qw	きゅう
 qv	きょう
 cw	ちゅう
@@ -213,6 +186,7 @@ mg	みん
 md	めん
 mb	もん
 rn	らん
+rg	りん
 rd	れん
 rb	ろん
 gn	がん
@@ -232,7 +206,9 @@ bm	ぶん
 bd	べん
 qn	きゃん
 xm	しゅん
+xb	しょん
 cn	ちゃん
 cm	ちゅん
 jn	じゃん
 jm	じゅん
+jb	じょん
