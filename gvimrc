@@ -21,6 +21,7 @@ set tabstop=4                                               " タブの画面上
 colorscheme molokai                                         " https://github.com/tomasr/molokai
 
 map <C-n> :NERDTreeToggle<CR>                               " Ctrl + nでツリーを表示
+let g:NERDTreeQuitOnOpen = 1								" NERDtreeを自動で閉じる
 
 " IME の on/off に合わせてカーソルの色を変える
 if has('multi_byte_ime')

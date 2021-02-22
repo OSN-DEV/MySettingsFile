@@ -9,12 +9,18 @@ nf	ぬ
 ^u	ぬ
 ^e	ね
 ^o	の
+nl	の
+nk	に
+n;	の
 hv	ふ
 mv	む
 mk	み
 ml	も
-yv	ゆ
+yf	ゆ
 nv	ん
+
+cl	→
+c-	～
 
 @a	ぁ
 @i	ぃ
@@ -46,6 +52,7 @@ qo	きょ
 xa	しゃ
 xu	しゅ
 xo	しょ
+xl	しょ
 
 ca	ちゃ
 cu	ちゅ
@@ -54,6 +61,10 @@ co	ちょ
 ^ya	にゃ
 ^yu	にゅ
 ^yo	にょ
+
+\a	みゃ
+\u	みゅ
+\o	みょ
 
 :a	ひゃ
 :u	ひゅ
@@ -108,26 +119,35 @@ sl	せい
 tf	たい
 tl	てい
 ^f	ない
+^l	ねい
 hf	はい
 hl	へい
 mf	まい
 rf	らい
+rl	れい
 gf	がい
 gl	げい
 zf	ざい
+zl	ぜい
 jl	ぜい
 df	だい
+dl	でい
+;f	ぱい
+bf	ばい
+;l	ぺい
 bl	べい
 xf	しゃい
 jf	じゃい
 
 vw	おう
 kw	こう
-sw	そう
+sw	すう
+sv	そう
 tw	とう
 ^w	のう
 mw	もう
-yw	よう
+yw	ゆう
+yv	よう
 gw	ごう
 zw	ぞう
 dw	どう
@@ -144,6 +164,7 @@ xv	しょう
 ;v	にょう
 :w	ひゅう
 :v	ひょう
+;m	みょう
 bv	びょう
 lw	りゅう
 lv	りょう
@@ -189,6 +210,7 @@ rn	らん
 rg	りん
 rd	れん
 rb	ろん
+wn	わん
 gn	がん
 gm	ぐん
 gd	げん
@@ -199,9 +221,13 @@ zm	ずん
 zd	ぜん
 zb	ぞん
 dn	だん
+dg	でん
+db	どん
 ;n	ぱん
 ;g	ぴん
+;b	ぽん
 bn	ばん
+bg	びん
 bm	ぶん
 bd	べん
 qn	きゃん
